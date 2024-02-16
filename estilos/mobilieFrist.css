@@ -31,7 +31,7 @@ body{
 
 main{
     
-    width: 90vw; /*no geral mexer aqui*/
+    width: 80vw; /*no geral mexer aqui*/
     position: absolute;
     top:50%;
     left:50%;
@@ -152,11 +152,11 @@ position: relative;
 #idsenha , #idmail{
 
     position: absolute;
-    width: 80%;
+    width: 82%;
     height: 37px;
     border-radius: 10px;
     right: 1px;
-    top:1.9px;
+    top:1.4px;
     border: none;
 
 }
@@ -169,7 +169,7 @@ position: relative;
 img{
     position: absolute;
     top: 8px;
-    left: 3px;
+    left: 8px;
     width: 27px;
 
 }
