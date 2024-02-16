@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/* mobilie frist */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+
+    --ramonroxo: #5E2C81
+}
+
+body{
+
+    background-color: var(--ramonroxo);
+}
+
+.image{
+
+    background-image:url(../image/pexels-dominika-roseclay-2112032\ \(1\).jpg);
+    height: 170px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+
+main{
+    
+    max-width: 1800px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    border-radius: 20px;
+    
+
+    
+}
+
+h1 {
+
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+p{
+    text-align: justify;
+    font-size: 12px;
+ 
+}
+
+.paragrafo{
+
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+form{
+
+    padding: 10px;
+    box-sizing: border-box;
+
+
+}
+
+.bloco-mail , .bloco-senha{
+
+   background-color: var(--ramonroxo);
+   
+
+}
+
+#botao-entrar , #botao-senha{
+
+   margin-top: 10px; 
+   border: none;
+   width: 173px;
+   padding:10px 0px;
+   border-radius: 5px;
+   color: white;
+
+
+   
+}
+
+#botao-entrar{
+    background-color: #4DA59F;
+    cursor: pointer;
+}
+
+#botao-senha{
+
+    color: #4DA59F;
+    border: 0.2px solid #4DA59F;
+    cursor: pointer;
+}
+
+#bloco-mail,#bloco-senha{
+
+margin-bottom: 6px;
+background-color: var(--ramonroxo);
+height: 39px;
+border-radius: 10px;
+position: relative;
+
+
+
+}
+
+.bloco-entrar , .bloco-esqueci{
+
+    text-align: center;
+}
+
+
+
+#idsenha , #idmail{
+
+    position: absolute;
+    width: 80%;
+    height: 37px;
+    border-radius: 10px;
+    right: 1px;
+    top:1.9px;
+    border: none;
+
+}
+
+::placeholder{
+
+    padding-left: 5px;
+}
+
+img{
+    position: absolute;
+    top: 8px;
+    left: 3px;
+    width: 27px;
+
+}
+
+
+
+
+
+
