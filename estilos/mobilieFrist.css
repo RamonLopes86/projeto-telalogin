@@ -49,7 +49,7 @@ main{
     transform: translate(-50% , -50%);
     background-color: white;
     border-radius: 20px;
-    transition-duration: 1ms;
+    
     
     
 
@@ -90,17 +90,29 @@ form{
 
 }
 
-.bloco-mail , .bloco-senha{
+#idsenha , #idmail{
 
-   background-color: var(--ramonroxo);
-   
-
-}
-
-#idsenha{
-
+    position: absolute;
+    width: calc(100% - 40px);
+    margin: 0px 0px;
+    height: 37px;
+    border-radius: 10px;
+    right: 1px;
+    top:1.4px;
+    border: none;
     background-color: #6ae2dad7;
+    
+
 }
+
+#idmail , #idsenha:focus-within{
+
+    background-color: white;
+}
+
+
+
+
 
 #botao-entrar , #botao-senha{
 
@@ -168,19 +180,7 @@ position: relative;
 }
 
 
-#idsenha , #idmail{
 
-    position: absolute;
-    width: calc(100% - 40px);
-    margin: 0px 0px;
-    height: 37px;
-    border-radius: 10px;
-    right: 1px;
-    top:1.4px;
-    border: none;
-    
-
-}
 
 
 
