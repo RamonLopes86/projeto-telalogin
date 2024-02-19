@@ -49,6 +49,7 @@ main{
     transform: translate(-50% , -50%);
     background-color: white;
     border-radius: 20px;
+    transition-duration: 1ms;
     
     
 
@@ -109,16 +110,24 @@ form{
    padding:10px 0px;
    border-radius: 5px;
    color: white;
+   
 
 
    
 }
+
 
 #botao-entrar{
 
     background-color: #4DA59F;
     cursor: pointer;
     
+}
+
+#botao-entrar:hover{
+
+    background-color:#2a5855 ;
+    transition-duration: 200ms;
 }
 
 #botao-senha{
@@ -147,14 +156,7 @@ position: relative;
 
    
    
-    text-align: center;
-    
-    
-   
-    
-
-    
-    
+    text-align: center;  
 
 }
 
@@ -166,36 +168,44 @@ position: relative;
 }
 
 
-
-
-
 #idsenha , #idmail{
 
     position: absolute;
-    width: 82%; /*mexer no geral*/
+    width: calc(100% - 40px);
+    margin: 0px 0px;
     height: 37px;
     border-radius: 10px;
     right: 1px;
     top:1.4px;
     border: none;
+    
 
 }
 
-::placeholder{
 
-    padding-left: 5px;
-}
 
-img{
+span{
     position: absolute;
     top: 8px;
     left: 8px;
     width: 27px;
+    color: white;
 
 }
 
+#icon-mail{
+
+    color:black;
+    position: absolute;
+     
+}
+
+input[type = "email"] , input[type="password"]{
+
+    padding-left: 10px;
+    
 
 
-
+}
 
 

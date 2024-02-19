@@ -12,10 +12,7 @@ body{
     
 }
 
-#idsenha , #idmail{
 
-    width: 92%;
-}
 
 p{
     text-align: center;
@@ -44,16 +41,18 @@ p{
 
 }
 
+main{
+
+    width: 90vw;
+}
+
 
 
 
 @media screen and (min-width:1441px) {
     
     
-    #idsenha , #idmail{
-
-        width: 92%;
-    }
+   
 
     p{
         text-align: center;
@@ -83,17 +82,19 @@ p{
 
     h1{
 
-        font-size: 40px;
+        font-size: 32px;
         padding-bottom: 30px;
 
     }
 
     p{
 
-        font-size: 22px;
+        font-size: 18px;
         padding-bottom: 20px;
         text-align: center;
     }
+
+    
     
     }
     
